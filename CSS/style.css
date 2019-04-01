@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: beige;
+    padding:15px;text-align:center;
+}
+
+.menu {
+    float: center;
+    text-align: right;
+    width: 85%;
+}
+
+.menu a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:left;
+    width:10;
+    color:black;
+  }
+
+.left {
+    float:left;
+    width:20%;
+    padding:20px;
+    margin-top:7px;
+    text-align:center;
+}
+
+.left a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:10;
+    color:black;
+  }
+
+.main {
+    float:left;
+    width:80%;
+    padding:20px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.loginForm {
+  text-align: center;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .left {
+      width:100%;
+    }
+  }
