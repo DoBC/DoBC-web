@@ -5,8 +5,40 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="CSS/style.css">
+        <script src="./lib/jquery.js"></script>
+        <script src="./js/populator.js"></script>
+        <style>
+                .items {
+                    text-align: center;
+                    display: block;
+                    text-align: center;
+                }
+        
+                .item {
+                    display: inline-block;
+                    background-color: #CCC;
+                    border-radius: 10px;
+                    margin: 10px;
+                    
+                }
+        
+                .inner-item {
+                    border-radius: 10px;
+                    width: 300px;
+                    height: 300px;
+                    margin: 15px;
+                    border: 1px solid black;
+                    background-color: white;
+                }
+        
+                .item-image {
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
     </head>
-    <body>
+    <body style="overflow: hidden;">
         <div>
             <h1>Behaviour tool</h1> 
         </div>
@@ -74,9 +106,12 @@
                     </form>
                 </div>
             </div>
+
             <div class="main">
                 <h2>Your results</h2>
                 <p>Images/examples</p>
+                <button onclick="populate_items()">Click me?</button>
+                <div class="items" id="items"></div>
             </div>
             
         </div>
