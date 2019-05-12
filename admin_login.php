@@ -18,7 +18,6 @@
             <h1>Dimensions of Behaviour Change</h1>
         </div>
         <div class="menu">
-            <a href="index.php">Behavior tool</a>
             <a href="how_to_use_the_tool.php">How to use the tool</a>
             <a href="about.php">About</a>
             <a href="contact_us.php">Contact</a>
