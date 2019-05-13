@@ -132,10 +132,23 @@ h1 , h3 {
 
 .pTxtLeft{
   text-align: left;
+  margin: 0px auto;
+  background-color: mediumseagreen;
 }
 
 .pTxtRight{
   text-align: right;
+  margin: 0px auto;
+  background-color: magenta;
+}
+
+.pTxtCenter{
+  margin: 0px auto;
+  background-color: aqua;
+}
+
+.sliderEntry {
+  padding-bottom: 20px;
 }
 
 .slider {
