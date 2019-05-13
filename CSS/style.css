@@ -59,7 +59,7 @@ h1 , h3 {
     padding:20px;
     margin-top:7px;
     text-align:center;
-    background-color: antiquewhite;
+    background-color: #31e8e8;
 }
 
 .left a {
@@ -78,7 +78,7 @@ h1 , h3 {
     padding:20px;
     margin-top: 7px;
     text-align: center;
-    background-color: #73757a;
+    background-color: #31c4e8;
     height: calc(100vh - 107px);
 }
 
