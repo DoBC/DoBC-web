@@ -55,7 +55,7 @@ h1 , h3 {
 
 .left {
     float:left;
-    width:38%;
+    width:30%;
     padding:20px;
     margin-top:7px;
     text-align:center;
@@ -74,7 +74,7 @@ h1 , h3 {
 .main {
   overflow-y: scroll;
     float:left;
-    width:62%;
+    width:70%;
     padding:20px;
     margin-top: 7px;
     text-align: center;
@@ -127,8 +127,15 @@ h1 , h3 {
 .sliderPoint {
   display: inline-block;
   width: calc(95% /3);
-  height: 10px;
   margin: 0px auto;
+}
+
+.pTxtLeft{
+  text-align: left;
+}
+
+.pTxtRight{
+  text-align: right;
 }
 
 .slider {
