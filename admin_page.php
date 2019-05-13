@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="CSS/style.css">
     </head>
-    <body>
+    <body style="overflow:auto"> <!-- Dette fordi den er overstyrt i .body i style.css-->
         <?php
         session_start();
         $db = mysqli_connect("localhost", "root", "", "dobc");
