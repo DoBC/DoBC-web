@@ -180,3 +180,8 @@ h1 , h3 {
   background: #4CAF50;
   cursor: pointer;
 }
+
+.txtArea {
+  text-align: left;
+  margin: 50px 300px 50px 300px;
+}
