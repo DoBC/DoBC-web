@@ -14,17 +14,22 @@
         $db = mysqli_connect("localhost", "root", "", "dobc");
         $_SESSION["Innlogget"]=false; 
         ?>
-        <div>
-            <h1>Dimensions of Behaviour Change</h1>
-        </div>
         <div class="menu">
-            <a href="how_to_use_the_tool.php">How to use the tool</a>
-            <a href="about.php">About</a>
-            <a href="contact_us.php">Contact</a>
+            <div class="menu-left">
+                <a class="menu-banner" href="index.html">
+                    <img class="logo-img" src="./img/DOB.svg">
+                </a>
+                <p style="font-style:italic; margin:auto 0px 0px auto; padding:10px">Designing how users interact with product</p>
+            </div>
+            <div class="menu-right">
+                <a href="how_to_use_the_tool.html">How to use the tool</a>
+                <a href="about.html">About</a>
+                <a href="contact_us.html">Contact</a>
+            </div>
         </div>
-        <div>
+        <div class="txtAreaAdmin">
             <form action="" method="post">
-            <h3>Administrator login:</h3>
+            <p><b>Administrator login:</b></p>
                 <table>
                     <tr>
                         <td>Username:</td>

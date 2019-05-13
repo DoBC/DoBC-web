@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="txtAreaAdmin">
-            <h3> Add or edit behaviour tool examples </h3>
+            <p><b> Add or edit behaviour tool examples</b></p>
             <table>
                 <tr>
                     <td>Title: </td>
