@@ -2,8 +2,9 @@ function populate_items()
 {
     var items = $("#items");
 
-    for (var i = 0; i < 100; i++)
+    for (var i = 1; i < 41; i++)
     {
+        var imgUrl = "img/Examples/" + i + ".jpg";
         var item = $("<div></div>", {
             "class" : "item"
         });
@@ -14,7 +15,8 @@ function populate_items()
     
         var itemImage = $("<img />", {
             "class" : "item-image",
-            "src" : "https://via.placeholder.com/300"
+            "src" : imgUrl
+            // "src" : "https://via.placeholder.com/300"
         });
 
         var itemText = $("<p></p>", {
