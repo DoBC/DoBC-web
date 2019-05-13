@@ -60,7 +60,7 @@ h1 , h3 {
     padding:20px;
     margin-top:7px;
     text-align:center;
-    background-color: #31e8e8;
+    background-color: #00bf80;
 }
 
 .left a {
@@ -134,18 +134,15 @@ h1 , h3 {
 .pTxtLeft{
   text-align: left;
   margin: 0px auto;
-  background-color: mediumseagreen;
 }
 
 .pTxtRight{
   text-align: right;
   margin: 0px auto;
-  background-color: magenta;
 }
 
 .pTxtCenter{
   margin: 0px auto;
-  background-color: aqua;
 }
 
 .sliderEntry {
@@ -167,8 +164,8 @@ h1 , h3 {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%; 
   background: #4CAF50;
   cursor: pointer;
