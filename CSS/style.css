@@ -64,12 +64,13 @@ h1 , h3 {
 }
 
 .left a {
-    background-color:#e5e5e5;
     padding:8px;
     margin-top:7px;
     display:block;
     width:10;
-    color:black;
+    color:white;
+    font-weight: 600;
+    text-decoration: underline;
   }
 
 .main {
@@ -79,7 +80,7 @@ h1 , h3 {
     padding:20px;
     margin-top: 7px;
     text-align: center;
-    background-color: #31c4e8;
+    background-color: whitesmoke;
     height: calc(100vh - 107px);
 }
 
@@ -156,7 +157,7 @@ h1 , h3 {
   border-radius: 5px;   
   background: #d3d3d3;
   outline: none;
-  opacity: 0.7;
+  opacity: 1;
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
@@ -167,7 +168,7 @@ h1 , h3 {
   width: 20px;
   height: 20px;
   border-radius: 50%; 
-  background: #4CAF50;
+  background: white;
   cursor: pointer;
 }
 
@@ -175,7 +176,7 @@ h1 , h3 {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #4CAF50;
+  background: white;
   cursor: pointer;
 }
 
