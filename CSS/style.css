@@ -10,17 +10,19 @@ h1 , h3 {
 
 .menu {
     float: center;
-    text-align: right;
-    width: 85%;
+    text-align: left;
+    width: 100%;
+    background-color:#e5e5e5;
 }
 
 .menu a {
-    background-color:#e5e5e5;
+    
     padding:8px;
     margin-top:7px;
     display:left;
     width:10;
     color:black;
+    text-align: right;
   }
 
 .left {
@@ -29,6 +31,7 @@ h1 , h3 {
     padding:20px;
     margin-top:7px;
     text-align:center;
+    background-color: antiquewhite;
 }
 
 .left a {
