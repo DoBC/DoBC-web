@@ -21,7 +21,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `dobc`
 --
+DROP DATABASE IF EXISTS dobc;
 
+CREATE DATABASE dobc;
 -- --------------------------------------------------------
 
 --

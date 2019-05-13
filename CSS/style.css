@@ -25,7 +25,7 @@ h1 , h3 {
 
 .left {
     float:left;
-    width:20%;
+    width:38%;
     padding:20px;
     margin-top:7px;
     text-align:center;
@@ -42,15 +42,18 @@ h1 , h3 {
 
 .main {
     float:left;
-    width:80%;
+    width:62%;
     padding:20px;
     margin-top: 7px;
     text-align: center;
+    background-color: #73757a;
 }
 
 .loginForm {
   text-align: center;
+  float: right;
 }
+
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
