@@ -6,6 +6,7 @@
 
 body {
   margin: 0px;
+  overflow: hidden;
 }
 
 a {
@@ -56,13 +57,14 @@ h1 , h3 {
 
 
 .left {
-    float:left;
+    /*float:left;*/
+    display: inline-block;
     width:30%;
     padding:20px;
     text-align:center;
     background-color: #e5e5e5;
     height: calc(100vh - 100px);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .hamburger {
@@ -84,9 +86,11 @@ h1 , h3 {
   }
 
 .main {
-  overflow-y: scroll;
+  overflow-y: auto;
     /*float:left;
     width:70%;*/
+    display: inline-block;
+    width: 100%;
     padding:20px;
     text-align: center;
     background-color: whitesmoke;
@@ -98,12 +102,33 @@ h1 , h3 {
   float: right;
 }
 
+.wrapper {
+  display: flex;
+  width: 100%;
+}
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
     .menu, .main, .left {
       width:100%;
     }
+
+    body {
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    .wrapper {
+      display: block;
+    }
+
+    .main {
+      height: auto;
+    }
+    .left {
+      height: auto;
+    }
+
   }
 
   .items {
