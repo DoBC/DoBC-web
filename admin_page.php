@@ -12,15 +12,21 @@
         $db = mysqli_connect("localhost", "root", "", "dobc");
         include "test_login.php";
         ?>
-        <div>
-            <h1>Dimensions of behaviour change</h1> 
-        </div>
         <div class="menu">
-            <a href="how_to_use_the_tool.php">How to use the tool</a>
-            <a href="about.php">About the tool</a>
-            <a href="contact_us.php">Contact</a>
+            <div class="menu-left">
+                <a class="menu-banner" href="index.html">
+                    <img class="logo-img" src="./img/DOB.svg">
+                </a>
+                <p style="font-style:italic; margin:auto 0px 0px auto; padding:10px">Designing how users interact with product</p>
+            </div>
+            <div class="menu-right">
+                <a href="how_to_use_the_tool.html">How to use the tool</a>
+                <a href="about.html">About</a>
+                <a href="contact_us.html">Contact</a>
+                <a href="">Logout</a>
+            </div>
         </div>
-        <div>
+        <div class="txtAreaAdmin">
             <h3> Add or edit behaviour tool examples </h3>
             <table>
                 <tr>

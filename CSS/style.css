@@ -187,3 +187,13 @@ h1 , h3 {
   font-size: 20px;
   min-width: 300px;
 }
+
+/* admin page */
+
+.txtAreaAdmin {
+  text-align: left;
+  /*margin: 50px 550px 50px 550px; */
+  margin: 5% 30% 5% 30%;
+  font-size: 20px;
+  min-width: 300px;
+}
