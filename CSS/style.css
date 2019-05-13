@@ -1,5 +1,20 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+a:hover {
+  color: #f64f64;
 }
 
 h1 , h3 {
@@ -9,21 +24,33 @@ h1 , h3 {
 }
 
 .menu {
-    float: center;
-    text-align: left;
+    display: flex;
     width: 100%;
+    height: 100px;
     background-color:#e5e5e5;
 }
 
-.menu a {
-    
-    padding:8px;
-    margin-top:7px;
-    display:left;
-    width:10;
-    color:black;
-    text-align: right;
-  }
+.menu-banner {
+  height: 100px;
+  padding: 0px 10px;
+  display: flex;
+}
+
+.logo-img {
+  height: 80px;
+  width: 200px;
+  margin: auto;
+}
+
+.menu-left {
+  display: inline-flex;
+}
+
+.menu-right {
+  display: inline-flex;
+  margin: auto 10% 0px auto;
+}
+
 
 .left {
     float:left;
@@ -44,12 +71,14 @@ h1 , h3 {
   }
 
 .main {
+  overflow-y: scroll;
     float:left;
     width:62%;
     padding:20px;
     margin-top: 7px;
     text-align: center;
     background-color: #73757a;
+    height: calc(100vh - 107px);
 }
 
 .loginForm {
