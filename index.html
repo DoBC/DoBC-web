@@ -28,107 +28,123 @@
             </div>
         </div>
         <div style="overflow:auto">
-            <div class="left">
-                <h2>Adjust the tool sliders</h2>
-                <div class="sliderEntry">
-                    <a href="#">Control</a>
-                    <form id="sliderData">
-                        <input id="slider1" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">User in control</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Shared control</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Product in control</p></div>
+            <div id="leftPane" class="left">
+                <img onclick="toggle()" class="hamburger" src="img/hamburger.svg" />
+                <script>
+                    function toggle()
+                    {
+                        var controlPane = document.getElementById("controls");
+                        var leftPane = document.getElementById("leftPane");
+                        if (controlPane.style.display === "none") {
+                            controlPane.style.display = "";
+                            leftPane.style.width = "";
+                        } else
+                        {
+                            controlPane.style.display = "none";
+                            leftPane.style.width = "100px";
+                        }
+                    }
+                </script>
+                <div id="controls">
+                    <p style="font-size: 16pt; text-align: left;">Adjust the tool sliders</p>
+                    <div class="sliderEntry">
+                        <a href="#">Control</a>
+                        <form id="sliderData">
+                            <input id="slider1" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">User in control</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Shared control</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Product in control</p></div>
+                        </div>
                     </div>
-                </div>
-                <hr>
-                <div class="sliderEntry">
-                    <a href="#">Obtrusiveness</a>
-                    <form id="sliderData">
-                        <input id="slider2" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">Obtrusive</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Medium obtrusive</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Unobtrusive</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Obtrusiveness</a>
+                        <form id="sliderData">
+                            <input id="slider2" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">Obtrusive</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Medium obtrusive</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Unobtrusive</p></div>
+                        </div>
                     </div>
-                </div>
-                <hr>
-                <div class="sliderEntry">
-                    <a href="#">Meaning</a>
-                    <form id="sliderData">
-                        <input id="slider3" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">Emotional</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Rational</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Meaning</a>
+                        <form id="sliderData">
+                            <input id="slider3" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">Emotional</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Rational</p></div>
+                        </div>
                     </div>
-                </div>
-                <div class="sliderEntry">
-                    <a href="#">Exposure</a>
-                    <form id="sliderData">
-                        <input id="slider4" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">Rarely</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Frequently</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Exposure</a>
+                        <form id="sliderData">
+                            <input id="slider4" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">Rarely</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Frequently</p></div>
+                        </div>
                     </div>
-                </div>
-                <div class="sliderEntry">
-                    <a href="#">Encouragement</a>
-                    <form id="sliderData">
-                        <input id="slider5" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">Promote</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Discourage</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Encouragement</a>
+                        <form id="sliderData">
+                            <input id="slider5" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">Promote</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Discourage</p></div>
+                        </div>
                     </div>
-                </div>
-                <div class="sliderEntry">
-                    <a href="#">Timing</a>
-                    <form id="sliderData">
-                        <input id="slider6" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">Before use</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">During interaction</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">After use</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Timing</a>
+                        <form id="sliderData">
+                            <input id="slider6" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">Before use</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">During interaction</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">After use</p></div>
+                        </div>
                     </div>
-                </div>
-                <div class="sliderEntry">
-                    <a href="#">Empathy</a>
-                    <form id="sliderData">
-                        <input id="slider7" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">Me</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Others</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Empathy</a>
+                        <form id="sliderData">
+                            <input id="slider7" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">Me</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Others</p></div>
+                        </div>
                     </div>
-                </div>
-                <div class="sliderEntry">
-                    <a href="#">Importance</a>
-                    <form id="sliderData">
-                        <input id="slider8" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">Important</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Unimportant</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Importance</a>
+                        <form id="sliderData">
+                            <input id="slider8" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">Important</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Unimportant</p></div>
+                        </div>
                     </div>
-                </div>
-                <div class="sliderEntry">
-                    <a href="#">Direction</a>
-                    <form id="sliderData">
-                        <input id="slider9" class="slider" class="slider" type="range" min="1" max="3">
-                    </form>
-                    <div style="width: 100%;">
-                        <div class="sliderPoint"><p class="pTxtLeft">In line</p></div>
-                        <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
-                        <div class="sliderPoint"><p class="pTxtRight">Opposing</p></div>
+                    <div class="sliderEntry">
+                        <a href="#">Direction</a>
+                        <form id="sliderData">
+                            <input id="slider9" class="slider" class="slider" type="range" min="1" max="3">
+                        </form>
+                        <div style="width: 100%;">
+                            <div class="sliderPoint"><p class="pTxtLeft">In line</p></div>
+                            <div class="sliderPoint"><p class="pTxtCenter">Neutral</p></div>
+                            <div class="sliderPoint"><p class="pTxtRight">Opposing</p></div>
+                        </div>
                     </div>
                 </div>
             </div>
