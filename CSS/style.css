@@ -49,6 +49,7 @@ h1 , h3 {
 .menu-right {
   display: inline-flex;
   margin: auto 10% 0px auto;
+  font-weight: 600;
 }
 
 
