@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 
 body {
@@ -184,5 +184,8 @@ h1 , h3 {
 
 .txtArea {
   text-align: left;
-  margin: 50px 300px 50px 300px;
+  /*margin: 50px 550px 50px 550px; */
+  margin: 5% 30% 5% 30%;
+  font-size: 20px;
+  min-width: 300px;
 }
