@@ -22,7 +22,7 @@
             <div class="menu-right">
                 <a href="how_to_use_the_tool.html">How to use the tool</a>
                 <a href="about.html">About</a>
-                <a href="contact_us.html">Contact</a>
+                <a href="contact_us.html">Suggestions</a>
                 <a href="">Logout</a>
             </div>
         </div>
